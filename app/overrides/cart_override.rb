@@ -1,3 +1,4 @@
+# encoding: UTF-8
 Deface::Override.new(:virtual_path => "spree/orders/_line_item",
                      :name => "add_quantity_limit",
                      :insert_after => "code[erb-loud]:contains('variant.sku')",
